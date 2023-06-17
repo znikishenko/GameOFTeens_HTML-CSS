@@ -10,7 +10,7 @@
 
 
 .header{
-    background: url(./caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg);
+    background: url(./images/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg);
     height: 100vh;
     background-size: cover;
 }
@@ -82,4 +82,332 @@ body{
     background-color: aqua;
     border-radius: 20px;
     
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.y-main {}
+
+.y-main__body {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.y-body__title {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+}
+
+.y-body__text {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.y-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.y-cards__item {
+    display: flex;
+}
+
+.y-item__img {
+    margin-right: 20px;
+}
+
+.y-img {
+    width: 40px;
+}
+
+.y-item__box {}
+
+.y-box__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #323232;
+}
+
+.y-box__text {
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.y-button {
+    background: #4985FF;
+    width: 200px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 30px;
+    color: #fff;
+    padding: 13px 36px;
+}
+
+.a-section__2 {
+    width: 1200px;
+    height: 500px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a-section2img-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-section2img {
+}
+.a-section2info-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    align-items: center;
+    padding: 10px 50px;
+    order: -1;
+}
+.a-section2title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 53px;
+color: #323232;
+}
+.a-section2txt {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #999999;
+}
+.line {
+    width: 1110px;
+    height: 0px;
+    border: 1px solid #e0e0e0;
+    margin: 0 auto;
+}
+/* ----Section 3---- */
+.all-service {
+  }
+  .all-servicebody {
+    height: 820px;
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .all-servicetitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000;
+    height: 88px;
+  }
+  .all-serviceitems {
+    display: flex;
+    justify-content: space-around;
+  }
+  .all-serviceitem {
+    width: 350px;
+    height: 544px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .all-serviceitem:nth-child(2) {
+    margin: 0 30px;
+  }
+  .itemimg {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    background-size: cover;
+  }
+  .itemtitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+  span {
+    color: #4985ff;
+  }
+  .itemtxt {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+  }
+  .itemlink {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985ff;
+    cursor: pointer;
+    }
+    .line {
+    width: 1110px;
+    height: 0px;
+    border: 1px solid #e0e0e0;
+    }
+/* ----Section 4---- */
+.a-section__4 {
+    background: url(./images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a-section4title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #fff;
+    padding: 13px;
+}
+.a-section4txt {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+color: #fff;
+}
+.a-section4video {
+    margin-top: 11px;
+}
+.video {
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 17px;
+}
+
+.y-footer {
+    background: #F6F6F8;
+    height: 500px;
+}
+
+.line-2 {
+    width: 1110px;
+    height: 0px;
+    border: 1px solid #e0e0e0;
+    margin: 20px auto;
+
+}
+
+.y-footer__body {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.y-footer__cards {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.y-card__item {}
+
+.y-item__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.y-item__text {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999; 
+}
+
+.y-item__list {}
+
+.list__item {
+    margin-top: 30px;
+}
+
+.y-item__link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.y-footer__line {
+    width: 1100px;
+    height: 0px;
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.footer__txt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+    margin-top: 30px;
 }
